@@ -44,6 +44,7 @@ router.get("/channel/:channelId", (req, res) => {
 });
 
 router.get("/channel", (req, res) => {
+  console.log(req);
   const username = req.query.username;
 
   if (!username) {

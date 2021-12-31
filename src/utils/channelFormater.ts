@@ -11,8 +11,6 @@ export const channelListFormatter = (channelList: any[]) => {
 };
 
 export const channelItemFormatter = (channelItem: any) => {
-  console.log(channelItem);
-
   const formattedChannelItem = {
     channelTitle: channelItem.snippet.title,
     thumbnails: channelItem.snippet.thumbnails.default.url,
